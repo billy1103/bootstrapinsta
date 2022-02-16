@@ -16,16 +16,15 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light" class="d-flex justify-content-around">
-    <div class="container">
+    <div class="container d-flex justify-content-center">
       <a class="navbar-brand" href="#">
         <i class="fa-brands fa-instagram"></i>
         Instagram
       </a>
     </div>
-    <div class="container">
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+    <div class="container d-flex justify-content-center">
+      <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
         data-bs-whatever="Post">Create a new post</button>
-
 
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
@@ -70,8 +69,7 @@
   </nav>
 
 
-
-  <ul class="nav nav-pills flex-column flex-sm-row" id="myTab" role="tablist">
+  <ul class="nav nav-pills flex-column flex-sm-row d-flex justify-content-center" id="myTab" role="tablist"style="margin-bottom: 5px">
     <li class="nav-item" role="presentation">
       <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
         aria-controls="home" aria-selected="true"><i class="fa-solid fa-grip"></i></button>
@@ -83,48 +81,43 @@
   </ul>
 
 
-
   <div class="tab-content mw-100 m-auto">
-    <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+    <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab ">
 
       <div class="container m-auto mw-100">
         <div class="row row-cols-3 justify-content-between">
-          <div class="col col-lg-4 p-0">
-            <img src="https://picsum.photos/seed/picsum/400/300" alt="">
+          <div class="col col-lg-4 p-0" style="margin-bottom: 2px;">
+            <img src="https://picsum.photos/seed/picsum/420/300" alt="">
           </div>
           <div class="col col-lg-4 p-0">
-            <img src="https://picsum.photos/400/300?grayscale" alt="">
+            <img src="https://picsum.photos/420/300?grayscale" alt="">
           </div>
           <div class="col col-lg-4 p-0">
-            <img src="https://picsum.photos/400/300" alt="">
+            <img src="https://picsum.photos/420/300" alt="">
+          </div>
+          <div class="col col-lg-4 p-0" style="margin-bottom: 2px;">
+            <img src="https://picsum.photos/420/300?grayscale&blur=2" alt="">
           </div>
           <div class="col col-lg-4 p-0">
-            <img src="https://picsum.photos/400/300?grayscale&blur=2" alt="Fried Chicken">
+            <img src="https://picsum.photos/420/300" alt="">
           </div>
           <div class="col col-lg-4 p-0">
-            <img src="https://picsum.photos/400/300" alt="">
+            <img src="https://picsum.photos/420/300?grayscale" alt="">
           </div>
           <div class="col col-lg-4 p-0">
-            <img src="https://picsum.photos/400/300?grayscale" alt="">
+            <img src="https://picsum.photos/seed/picsum/420/300" alt="">
           </div>
           <div class="col col-lg-4 p-0">
-            <img src="https://picsum.photos/seed/picsum/400/300" alt="">
+            <img src="https://picsum.photos/420/300" alt="">
           </div>
           <div class="col col-lg-4 p-0">
-            <img src="https://picsum.photos/400/300" alt="">
-          </div>
-          <div class="col col-lg-4 p-0">
-            <img src="https://picsum.photos/400/300" alt="">
+            <img src="https://picsum.photos/420/300" alt="">
           </div>
         </div>
       </div>
+    </div>
 
-
-
-
-
-
-
+    <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
 
 
@@ -138,8 +131,6 @@
 
 
     </div>
-
-    <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">ivan</div>
   </div>
 
 
